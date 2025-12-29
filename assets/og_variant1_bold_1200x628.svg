@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="628" viewBox="0 0 1200 628" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1020"/>
+      <stop offset="55%" stop-color="#2B3A8F"/>
+      <stop offset="100%" stop-color="#0B1020"/>
+    </linearGradient>
+    <radialGradient id="rg" cx="35%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#6EE7FF" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#6EE7FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="628" fill="url(#g1)"/>
+  <rect width="1200" height="628" fill="url(#rg)"/>
+  <text x="70" y="120" fill="#E5E7EB" font-family="system-ui, -apple-system, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif"
+        font-weight="700" font-size="24">SignalFlywheel</text>
+  <text x="70" y="220" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif"
+        font-weight="900" font-size="56" letter-spacing="-1">아이디어 신호 →</text>
+  <text x="70" y="288" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif"
+        font-weight="900" font-size="56" letter-spacing="-1">팔리는 상품</text>
+  <rect x="70" y="328" width="700" height="48" rx="14" fill="#111827" opacity="0.55"/>
+  <text x="92" y="361" fill="#E5E7EB" font-family="system-ui, -apple-system, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif"
+        font-weight="700" font-size="20">14일 플라이휠 템플릿 + 런치킷</text>
+  <text x="70" y="560" fill="#9CA3AF" font-family="system-ui, -apple-system, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif"
+        font-weight="600" font-size="18">신호를 문장으로 고정하고, 문장을 상품으로 바꾼다.</text>
+</svg>

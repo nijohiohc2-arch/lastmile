@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0F1A"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect x="90" y="90" width="1100" height="540" rx="36" fill="#0B1220" opacity="0.65"/>
+  <rect x="90" y="90" width="1100" height="540" rx="36" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.55"/>
+
+  <g>
+    <text x="150" y="185" fill="#E5E7EB" font-family="system-ui, -apple-system, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif"
+          font-weight="700" font-size="26" opacity="0.9">SignalFlywheel • Flywheel OS</text>
+
+    <text x="150" y="300" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif"
+          font-weight="900" font-size="56" letter-spacing="-1">신호를 제품으로</text>
+    <text x="150" y="366" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif"
+          font-weight="900" font-size="56" letter-spacing="-1">바꾸는 7단계</text>
+
+    <text x="150" y="430" fill="#9CA3AF" font-family="system-ui, -apple-system, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif"
+          font-weight="600" font-size="22">신호를 문장으로 고정하고, 문장을 상품으로 바꾼다.</text>
+
+    <g transform="translate(150, 485)">
+      <rect x="0" y="0" width="410" height="62" rx="18" fill="url(#accent)" opacity="0.18"/>
+      <text x="22" y="41" fill="#E5E7EB" font-family="system-ui, -apple-system, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif"
+            font-weight="800" font-size="24">템플릿 + 검증 스프린트</text>
+    </g>
+
+    <!-- Minimal progress dots -->
+    <g transform="translate(820, 520)" opacity="0.85">
+      <circle cx="0" cy="0" r="8" fill="#22D3EE"/>
+      <circle cx="36" cy="0" r="8" fill="#60A5FA" opacity="0.9"/>
+      <circle cx="72" cy="0" r="8" fill="#A78BFA" opacity="0.9"/>
+      <circle cx="108" cy="0" r="8" fill="#22D3EE" opacity="0.5"/>
+      <circle cx="144" cy="0" r="8" fill="#A78BFA" opacity="0.5"/>
+    </g>
+  </g>
+</svg>
